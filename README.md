@@ -1,4 +1,5 @@
-#Diplomado 2018-2
+# Diplomado 2018-2
 
-##Ejercicio
+## Ejercicio
+
 Prática básica de GitHub para el diplomado.
