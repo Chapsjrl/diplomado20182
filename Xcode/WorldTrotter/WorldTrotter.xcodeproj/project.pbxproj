@@ -13,6 +13,7 @@
 		4A2011772052593F00492422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2011752052593F00492422 /* LaunchScreen.storyboard */; };
 		4A2011822052593F00492422 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2011812052593F00492422 /* WorldTrotterTests.swift */; };
 		4A20118D2052593F00492422 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A20118C2052593F00492422 /* WorldTrotterUITests.swift */; };
+		4A46635420E5C8D000657B24 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A46635320E5C8D000657B24 /* Localizable.strings */; };
 		4AC9F07920E598BE007374CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9F07820E598BE007374CF /* MapViewController.swift */; };
 		4ADC6D0A20E57B3400C49761 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC6D0920E57B3400C49761 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +48,11 @@
 		4A2011882052593F00492422 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A20118C2052593F00492422 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		4A20118E2052593F00492422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A46635320E5C8D000657B24 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		4AC9F07820E598BE007374CF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4AC9F07B20E5ADDC007374CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4AC9F07C20E5B09E007374CF /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		4AC9F07D20E5B5E0007374CF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		4ADC6D0920E57B3400C49761 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +109,7 @@
 				4A2011702052593F00492422 /* Main.storyboard */,
 				4A2011732052593F00492422 /* Assets.xcassets */,
 				4A2011752052593F00492422 /* LaunchScreen.storyboard */,
+				4A46635320E5C8D000657B24 /* Localizable.strings */,
 				4A2011782052593F00492422 /* Info.plist */,
 				4AC9F07820E598BE007374CF /* MapViewController.swift */,
 			);
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A2011772052593F00492422 /* LaunchScreen.storyboard in Resources */,
+				4A46635420E5C8D000657B24 /* Localizable.strings in Resources */,
 				4A2011742052593F00492422 /* Assets.xcassets in Resources */,
 				4A2011722052593F00492422 /* Main.storyboard in Resources */,
 			);
@@ -304,6 +311,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				4A2011712052593F00492422 /* Base */,
+				4AC9F07B20E5ADDC007374CF /* en */,
+				4AC9F07C20E5B09E007374CF /* es-MX */,
+				4AC9F07D20E5B5E0007374CF /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLU87PWH97;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chapsjrl.WorldTrotter;
@@ -445,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LLU87PWH97;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chapsjrl.WorldTrotter;
