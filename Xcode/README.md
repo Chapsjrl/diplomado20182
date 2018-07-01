@@ -8,4 +8,4 @@ Carpeta de ejercicios realizados en Xcode
 3. [Tercer ejercicio](https://github.com/Chapsjrl/diplomado20182/tree/dev/Xcode/WorldTrotter): tercer aplicación creada con Xcode. Basada en el capitulo 3 del libro iOS Programming. El objetivo fue conocer el funcionamiento del auto layout.
 Actualizado al ejercicio 6 del libro. Actualizado al ejercicio 7 del libro.
 
-4. [Cuarto ejercicio](https://github.com/Chapsjrl/diplomado20182/tree/dev/Xcode/Homepwner%202): aplicación creada con Xcode. Basada en el capitulo 15 del libro iOS Programming(avance hasta el capitulo gracias al profesor Norberto). El objetivo fue poder acceder a la galeria.
+4. [Cuarto ejercicio](https://github.com/Chapsjrl/diplomado20182/tree/dev/Xcode/Homepwner%202): aplicación creada con Xcode. Basada en el capitulo 15 del libro iOS Programming(avance hasta el capitulo gracias al profesor Norberto). El objetivo fue poder acceder a la galeria. Actualizado al ejercicio 16 del libro.
